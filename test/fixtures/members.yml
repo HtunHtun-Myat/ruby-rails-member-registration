@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+  phone: 1
+  gender: 1
+  age: 2021-12-28
+  photo: MyString
+  facebook: MyString
+
+two:
+  name: MyString
+  email: MyString
+  phone: 1
+  gender: 1
+  age: 2021-12-28
+  photo: MyString
+  facebook: MyString
