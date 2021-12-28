@@ -80,3 +80,13 @@ $ rails server
 ```
 
 Finally open http://localhost:3000/ in your browser.
+
+# Screenshoot
+
+![no data](https://github.com/HtunHtun-Myat/ruby-rails-member-registration/blob/master/screenshoots/no-data.png)
+
+![list](https://github.com/HtunHtun-Myat/ruby-rails-member-registration/blob/master/screenshoots/list.PNG)
+
+![create](https://github.com/HtunHtun-Myat/ruby-rails-member-registration/blob/master/screenshoots/create.png)
+
+![edit](https://github.com/HtunHtun-Myat/ruby-rails-member-registration/blob/master/screenshoots/edit.png)
