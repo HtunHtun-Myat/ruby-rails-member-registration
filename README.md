@@ -1,3 +1,16 @@
+# TODO
+
+- [x] CRUD
+- [x] MVC
+- [x] Active Record
+- [ ] Search
+- [ ] Sort Column
+- [ ] Paginate
+- [x] Routes
+- [x] Migrate
+- [ ] CSV Export
+- [ ] Validation
+
 # README
 
 Member registration CRUD with Ruby on Rails.
