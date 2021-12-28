@@ -11,42 +11,62 @@
     </div>
   <% end %>
 
-  <div>
-    <%= form.label :name, style: "display: block" %>
-    <%= form.text_field :name %>
+  <div class="form-outline mb-4">
+    <%= form.label :name, class: "form-lable" %>
+    <%= form.text_field :name, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :email, style: "display: block" %>
-    <%= form.text_field :email %>
+  <div class="form-outline mb-4">
+    <%= form.label :email, class: "form-lable" %>
+    <%= form.text_field :email, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :phone, style: "display: block" %>
-    <%= form.number_field :phone %>
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="form-outline datepicker">
+        <%= form.label :age, class: "form-label" %>
+        <%= form.date_field :age, class: "form-control" %>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <%= form.label :gender %>
+      <div class="form-check form-check-inline mt-1">
+        <%= radio_button("member", "gender", "Male", class: "form-check-input") %>
+        <%= label(:member_gender, :male, :class => "form-check-label") %>
+
+        <%= radio_button("member", "gender", "Female", class: "form-check-input ml-2") %>
+        <%= label(:member_gender, :female, :class => "form-check-label") %>
+
+        <%= radio_button("member", "gender", "Others", class: "form-check-input ml-2") %>
+        <%= label(:member_gender, :others, :class => "form-check-label") %>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <%= form.label :gender, style: "display: block" %>
-    <%= form.number_field :gender %>
+  <div class="row">
+    <div class="col-md-6 mb-4">
+      <div class="form-outline mb-4">
+        <%= form.label :phone, class: "form-lable" %>
+        <%= form.text_field :phone, class: "form-control" %>
+      </div>
+    </div>
+
+    <div class="col-md-6 mb-4">
+      <div class="form-outline mb-4">
+        <%= form.label :facebook, class: "form-lable" %>
+        <%= form.text_field :facebook, class: "form-control" %>
+      </div>
+    </div>
   </div>
 
-  <div>
-    <%= form.label :age, style: "display: block" %>
-    <%= form.date_field :age %>
+  <div class="form-outline mb-4">
+    <%= form.label :photo, class: "form-lable" %>
+    <%= form.file_field :photo, class: "form-control" %>
   </div>
 
-  <div>
-    <%= form.label :photo, style: "display: block" %>
-    <%= form.text_field :photo %>
-  </div>
-
-  <div>
-    <%= form.label :facebook, style: "display: block" %>
-    <%= form.text_field :facebook %>
-  </div>
-
-  <div>
-    <%= form.submit %>
+  <div class="text-center">
+    <%= link_to "Back", members_path , class: "btn btn-secondary" %>
+    <%= form.submit :class => "btn btn-success" %>
   </div>
 <% end %>

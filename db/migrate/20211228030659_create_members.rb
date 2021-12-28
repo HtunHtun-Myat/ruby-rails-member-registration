@@ -3,8 +3,8 @@ class CreateMembers < ActiveRecord::Migration[7.0]
     create_table :members do |t|
       t.string :name
       t.string :email
-      t.integer :phone
-      t.integer :gender
+      t.string :phone
+      t.string :gender
       t.date :age
       t.string :photo
       t.string :facebook
