@@ -29,8 +29,8 @@ Member registration CRUD with Ruby on Rails.
 
 ## Requirements
 
-- Ruby >= 2.3.3
-- Rails >= 5.1.6
+- Ruby = 3.0.3
+- Rails >= 7.0.0
 - SQLite >= 3
 
 ## Tecnologies
