@@ -1,24 +1,69 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Member registration CRUD with Ruby on Rails.
 
-Things you may want to cover:
+## Features
 
-- Ruby version
+- CRUD
+- MVC
+- Active Record
+- Search
+- Sort Column
+- Paginate
+- Routes
+- Migrate
+- CSV Export
 
-- System dependencies
+## Requirements
 
-- Configuration
+- Ruby >= 2.3.3
+- Rails >= 5.1.6
+- SQLite >= 3
 
-- Database creation
+## Tecnologies
 
-- Database initialization
+- Ruby
+- Rails
+- CSS and SCSS
+- JS
+- Bootstrap
+- SQLite
 
-- How to run the test suite
+## Installation
 
-- Services (job queues, cache servers, search engines, etc.)
+Firstly, you need to install Ruby,Rails and SQLite in local.
 
-- Deployment instructions
+CLick [Here](https://guides.rubyonrails.org/v5.0/getting_started.html) to install Ruby,Rails and SQLite.
 
-- ...
+And then check each version after installation finished.
+
+```
+ruby -v
+
+rails --version
+
+sqlite3 --version
+
+```
+
+```
+git clone https://github.com/HtunHtun-Myat/ruby-rails-member-registration.git
+
+```
+
+```
+cd ruby-rails-member-registration
+
+```
+
+```
+rails db:migrate
+```
+
+After everything is done, run the project:
+
+```
+$ rails server
+```
+
+Finally open http://localhost:3000/ in your browser.
